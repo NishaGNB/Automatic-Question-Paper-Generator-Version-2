@@ -1,4 +1,4 @@
-# Automated Question Paper Generator System (AQPGS)
+# Automated Question Paper Generator System
 
 AQPGS is a comprehensive educational tool that automates the creation of question papers based on Bloom's Taxonomy levels and mark distributions. The system leverages machine learning and AI technologies to categorize questions and generate customized exam papers.
 
