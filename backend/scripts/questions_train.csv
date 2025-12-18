@@ -1,0 +1,205 @@
+question_text,module_no,marks,blooms_level
+Discuss the advantages of using the DBMS approach.,1,6,Understanding
+Explain three-schema architecture with a neat diagram. Why do we need mapping between schema levels?,1,6,Understanding
+Explain the component modules of DBMS and their interaction with the help of a diagram.,1,8,Understanding
+Define the following terms: (i) Weak entity (ii) DBMS catalog (iii) Snapshot (iv) Value sets (v) Cardinality ratio (vi) Degree of a relationship,1,6,remembering
+Explain the different categories of data models.,1,4,Understanding
+Write the ER diagram for an employee database. The constraints are as follows: (i) An employee works for a department (ii) Every department is headed by a manager (iii) An employee works on one or more projects (iv) An employee has dependents (v) A department controls the projects,2,8,applying
+What is meant by Integrity Constraint? Explain the importance of referential integrity constraint. How referential integrity constraint is implemented in SQL.,2,6,Understanding
+Write the relational algebra operations to perform the following queries: (i) Retrieve the name and address of all employees who work for the “Accounts” department. (ii) Retrieve the names of employers who have no dependents. (iii) Find the names of employees who work on all the projects controlled by department number 2.,2,6,applying
+"Explain the relational algebra operations from Set theory, with examples.",2,8,Understanding
+Explain the ER to relational mapping algorithm with suitable example for each step.,2,6,Understanding
+Write the SQL queries for the following database schema... (3 queries as listed),2,6,applying
+Explain with examples in SQL: (i) INSERT command (ii) UPDATE command,2,4,applying
+What is normalization? Explain 1NF and 2NF with examples.,3,10,Understanding
+"Given R(A, B, C, D, E) and F = {AB → C, B → D, C → E}. Find the candidate key. Decompose R into 3NF.",3,10,analyzing 
+Define trivial functional dependency. Explain the inference rules for functional dependencies.,3,10,remembering
+"What is meant by lossless join decomposition? Test whether the decomposition D = {R1(A,B,C), R2(C,D,E)} of R(A,B,C,D,E) with F = {A→B, C→D} is lossless.",3,10,analyzing 
+What is an ordered index? Explain B+ tree index structure.,4,10,Understanding
+List the different types of file organization. Explain heap file organization.,4,10,remembering
+What is a cost of query? List the different costs to execute a query.,4,5,remembering
+Explain selection operation with necessary algorithms.,4,5,Understanding
+Explain the steps in query processing.,4,10,Understanding
+What is a transaction? Explain ACID properties,5,10,Understanding
+Explain two-phase locking protocol.,5,10,Understanding
+Differentiate between serial and serializable schedule,5,5,analyzing 
+What is a deadlock? How is it prevented? Explain wait-die and wound-wait schemes.,5,5,analyzing 
+Explain immediate update recovery technique.,5,10,Understanding
+Define the following terms: i) Database ii) DBMS catalog iii) Entity iv) Snapshot v) Degree of a relationship,1,5,remembering
+Explain types of end-users with suitable examples,1,5,Understanding
+List and explain advantages of using DBMS approach,1,10,Understanding
+Define the following terms: i) Cardinality ii) Weak entity iii) Program data independence iv) Total participation v) Value sets,1,5,remembering
+Describe three schema architecture. Why do we need mappings between schema levels?,1,5,Understanding
+Explain different types of attributes in ER model with suitable examples for each,1,10,Understanding
+Explain the entity integrity and referential integrity constraints. Why is each considered important. Give examples,2,5,Understanding
+Discuss common and natural join with suitable examples using relational algebra notation,2,5,Understanding
+"Given the schema: Passenger, Agency, Flight, Booking. Give relation algebra expression for 5 different queries",2,10,Applying
+Explain the ER to relational mapping algorithm with suitable example for each step,2,10,Understanding
+Write SQL query for Employee database with 5 different complex queries,2,10,Applying
+Explain cursors and its properties in embedded SQL with suitable example,3,5,Understanding
+How are triggers defined in SQL? Explain with example,3,5,Understanding
+"Illustrate insert, delete, update, alter and drop statements in SQL",3,10,Applying
+"With an example, explain stored procedures in SQL",3,5,Understanding
+Briefly explain types of JDBC drives,3,5,Understanding
+Illustrate aggregate functions in SQL,3,10,Applying
+Explain types of update anomalies with examples,4,5,Understanding
+Explain Armstrong inference rules,4,5,Understanding
+"What is the need for normalization? Explain 1NF, 2NF and 3NF with examples",4,10,Understanding
+What is functional dependency? Write an algorithm to find minimal cover for set of functional dependencies,4,10,Analyzing
+"Consider the schema R = ABCD with FDs F = {A → B, B → C}. State whether D1 is a lossless decomposition?",4,10,Analyzing
+Define transaction. Discuss ACID properties,5,5,Remembering/Understanding
+With a neat diagram explain transition diagram of a transaction,5,5,Understanding
+Why concurrency control and recovery are needed in DBMS? Explain types of problems that may occur when two simple transactions run concurrently,5,10,Understanding
+When deadlock and starvation problem occur? Explain how these problems can be resolved,5,10,Analyzing
+Briefly discuss the two-phase locking techniques for concurrency control,5,10,Understanding
+Describe the characteristics of database approach,1,6,Understanding
+List and explain the criteria for classification of DBMS,1,6,Understanding
+Write an ER diagram to represent CAR entity type with 2 key attributes (registration and Vehicle ID),1,8,Applying
+Write an UML class diagram notation for company conceptual schema,1,10,Applying
+Define the following terms: i) Data Model ii) Schema iii) Instance iv) Canned transaction v) Data Manipulation Language,1,10,Remembering
+"Explain the concepts of specialization and Generalization, with the help of superclass",2,6,Understanding
+Explain the different Relational Model constraints,2,6,Understanding
+Create a table for the Works_In relationship shown in Fig. Q3(c),2,8,Applying
+"For every project located in 'Stafford', list the project number, the controlling department number and the department managers last name, address and birth date",2,6,Applying
+"Retrieve the birth date and address of the employees whose name is 'John B, Smith'",2,6,Applying
+Retrieve the name and address of all employees who work for the 'Research' department,2,6,Applying
+Retrieve the salary of every employee,2,2,Applying
+"Discuss EXISTS and UNIQUE functions in SQL. Consider the COMPANY database given in Question number 04, write a query to list the name of the Manager who have at least one dependent",3,10,Applying
+"With a real World example, explain the following: i) JDBC ii) Correlated nested queries iii) Stored Procedures iv) Schema change statements in SQL",3,10,Understanding
+"Explain the usage of Aggregate function in SQL. Write an SQL query to find sum of the salaries of all employees, the maximum salary, the minimum salary and the average salary by renaming the columns in a single row table",3,10,Applying
+Create an HTML form to collect user id and password fields and it also has to have two buttons one for reset and another for login,3,5,Applying
+Write a short note on: i) JavaScript ii) CGI,3,5,Understanding
+Describe the 3 main techniques to achieve first normal form for the relation by taking following examples schema,4,6,Understanding
+Discuss the Informal guidelines to determine the quality of relations schema design with a suitable example,4,6,Understanding
+"Discuss the Insertion, Deletion and Modification anomalies. Illustrate, why are they considered bad, with an example",4,8,Analyzing
+"What do you mean by Normalization? Explain 2NF and BCNF, with a suitable example",4,6,Understanding
+"Consider the universal relation R → A, B, C, D, E, F, G, H, I, J) and the set of functional dependencies. i) What is key of R? ii) Decompose R into 2NF and then 3NF relation",4,6,Analyzing
+Write an algorithm to find a minimal cover F for a set of functional dependencies E,4,8,Analyzing
+Discuss the ACID properties of database transaction,5,8,Understanding
+Why concurrence control is needed? Demonstrate with an example,5,12,Understanding/Analyzing
+Briefly explain 2 phase locking protocols,5,6,Understanding
+Explain Transaction support in SQL,5,6,Understanding
+Write a short note on: i) Single user and Multiuser system ii) Transaction roll back and Cascading roll back iii) Shadow paging iv) Database backup and recovery from catastrophic failure v) Deadlock prevention protocol,5,8,Understanding
+"With neat diagram, describe ""Three Schema Architecture"" and ""Data Independence""",1,6,Understanding
+Discuss the different types of user friendly interfaces and the types of user who typically use each,1,6,Understanding
+"With a neat diagram, explain the component modules of DBMS and their interactions",1,8,Understanding
+"Explain with the block diagram, the different phases of database design",1,6,Understanding
+Draw an ER diagram of Banking Database. Assume your own entities (minimum 4) attributes and relationships. Specify 3NF tables,1,14,Applying/Creating
+Briefly discuss different type of update operations on relational database. Show an example of a violation of the referential and entity integrity in each of the update operation,2,8,Understanding/Analyzing
+Consider the two tables. Show the result of the following operations: (i) Natural Join (ii) Left Outer Join (iii) Right Outer Join (iv) Full Outer Join (v) Division operation,2,6,Applying
+List and explain the characteristics of Relations,2,6,Understanding
+Define the following: i) Primary key ii) Super key iii) Foreign key iv) Candidate key,2,4,Remembering
+Discuss all the forms of ALTER Commands with example,2,6,Understanding
+"Consider the following tables: Works (Pname, Cname, Salary), Lives (Pname, Street, City), Located_in (Cname, City). Write the following queries in Relational algebra: i) List the names of the people who work for the Company 'Wipro' along with the cities they live in. ii) Find the names of the persons who do not work for 'Infosys'. iii) Find the people whose salaries are more than that of all of the 'Oracle' employees. iv) Find the persons who works and lives in the same City. v) Find the names of the companies that are located in every city where the Company Infosys is located.",2,10,Applying
+Describe the six clauses in the syntax of an SQL retrieval query. Show what type of constructs can be specified in each of six clauses,3,4,Understanding
+How are Triggers and Assertions defined in SQL? Explain,3,6,Understanding
+"Consider the following tables: Branch (Bname, Bcity, Assets), Account (Aceno, Bname, Acbal), Loan (Loanno, Bname, LoanAmt), Customer (Cname, Cstreet, Ccity), Depositer (Cname, Accnum), Borrow (Cname, Loannum). Write the following queries in SQL: i) Find all loan numbers for loans made at cantonment branch with loan amounts greater than 20000. ii) Find the names of all customers whose street address includes 'Main'. iii) Find the average balance for each branch, if average balance is greater than 12000. iv) Find the Customers who have an account, at all the branches located in ""Mysure"". v) Find all Customers who do not have loan at the bank, but do have an account.",3,10,Applying
+How is view created and dropped? What problems are associated with updating view?,3,6,Understanding
+"What is Cursor? With program segment, explain retrieving of tuples with embedded SQL in C",3,6,Applying
+"Explain the concept of Create, Passing parameter, Call stored procedure from JDBC",3,8,Applying
+Briefly explain the informal design guidelines used as measure to determine the quality of relations schema design,4,8,Understanding
+What do you mean by Closure of Attributes? Write an algorithm to find closure of attributes,4,6,Understanding/Analyzing
+"Given below are two set of FDs for a relation R(A, B, C, D, E). Are they equivalent? Set 1: A → B, AB → C, D → AC, D → E. Set 2: A → BC, D → AE",4,6,Analyzing
+What do you mean by Multivalued Dependency? Explain the 4NF with example,4,6,Understanding
+"Define First, Second and Third Normal forms by taking an example",4,8,Understanding
+"Consider the following Relation R(A, B, C, D, E, F, G, H, I, J) with FDs {A, B} → C, A → {D, E}, D → J, B → {F, G}, F → {H, I}. How would you Normalize completely?",4,6,Analyzing
+Describe the problems that occur when concurrent execution uncontrolled. Give examples,5,6,Understanding
+Explain the transaction support in SQL,5,6,Understanding
+"Consider the three transactions T1, T2 and T3 and schedule S1 & S2 given below. Determine whether each schedule is serializable or not? If serializable, write down the equivalent serial schedule. T1: R1(x), R1(z), W1(x); T2: R2(x), R2(y), W2(z), W2(y); T3: R3(x), R3(y), W3(y); S1: R1(x), R2(z), R1(z), R3(x), R3(y), W1(x), W2(x), W3(y), R3(y), W2(z), W3(y); S2: R1(x), R2(z), R3(x), R1(z), R2(y), W1(x), W2(x), W3(y), W2(y)",5,8,Analyzing
+What is Schedule? Explain Conflict and view Serializability schedule with example,5,8,Understanding
+Briefly discuss the two phase locking protocol used in concurrency control,5,6,Understanding
+Briefly explain ARIES recovery process,5,6,Understanding
+List and discuss advantages of Database Management System over File Processing System,1,6,Understanding
+Explain three Schema Architecture and reason for need of mapping among schema level,1,8,Understanding
+Explain different types of attributes that occur in an E-R diagram model with example,1,6,Understanding
+Explain characteristics of the Database approach,1,6,Understanding
+Discuss the different types of User friendly interfaces,1,6,Understanding
+Draw an ER diagram for an AIRLINES database schema with atleast five entities. Also specify primary key and structural constraints,1,8,Applying/Creating
+What are the basic operations that can change the states of relations in the database? Explain how the basic operations deal with constraints violations,2,6,Understanding
+"Explain the terms Super key, Candidate Key and Primary key",2,4,Understanding
+"Given schema: emp, dept, dept_loc, project, works_on, dependent. Give relation algebra: i) Retrieve name of manager of each department ii) For each project retrieve project number, name and number of employees who worked on that project iii) Retrieve names of employees who work on all projects controlled by departments iv) Retrieve names of employees who have no dependents v) Retrieve number of Male and Female employees",2,10,Applying
+Describe the steps of an algorithm for ER to Relational mapping with example,2,6,Understanding
+"Write command that is used for table creation. Explain how constraints are specified in SQL during table creation, with suitable example",2,4,Applying
+"Given schema: Emp, dept, dept_loc, project, works_on, dependent. Give relation algebra: i) Retrieve name and address of employees who work for 'sports' department ii) Retrieve each department number, number of employees and average salary iii) List project number, controlling department number and manager's last name, address, birthdate iv) Retrieve names of employees with 2 or more dependents v) List female employees from dno=20 earning more than 50000",2,10,Applying
+Define Database stored procedure. Explain creating and calling stored procedure with example,3,6,Understanding
+What is SQLJ and how is it different from JDBC?,3,4,Understanding
+"Given schema: Sailors(Sid,Sname,rating,age), Boats(bid,bname,color), Reserves(Sid,bid,day). Write SQL: i) Find ages of sailors whose name begins and ends with A and has atleast three characters ii) Find age of youngest sailor eligible to vote for each rating level with atleast two such sailors iii) Find names of sailors who have not reserved a red boat (use nested query) iv) Compute increments for rating of persons who have sailed two different boats on same day",3,10,Applying
+What is CGI? Why was CGI introduced? What are the disadvantages of an architecture using CGI script?,3,6,Understanding
+What is Dynamic SQL and how is it different from embedded SQL? Explain,3,4,Understanding
+"Given schema: Sailors(Sid,Sname,rating,age), Boats(bid,bname,color), Reserves(Sid,bid,day). Write SQL: i) Find names of sailors who reserved at least one boat ii) Find sailors whose rating is better than some sailors called 'Jennifer' (nested query) iii) Find average age of sailor for each rating level with at least two sailors iv) Find name and age of oldest sailor",3,10,Applying
+Which normal form is based on transitive functional dependencies and full functional dependency? Explain with example,4,6,Understanding
+"A relation R satisfies: FDS: A→C, AC→D, E→AD, F→H. Find the cover for this set of FDS",4,6,Analyzing
+"Consider universal relation R={A,B,C,D,E,F,G,H,I,J} with FDs F={AB→C, A→DE, B→F, F→GH, D→IJ}. Determine whether decomposition D1={R1,R2,R3}; R1={A,B,C,D,E}; R2={B,F,G,H}; R3={D,I,J} has lossless join property",4,8,Analyzing
+"Write algorithm to check whether decomposed relations are in 3NF with dependency preservation and non-additive join property. Consider R=(U,C,L,A) with FDs F={P→LCA, LC→AP, A→C}. Decompose R into 3NF with dependency preservation and non-additive join property",4,10,Analyzing
+"Define Normal Form. Explain 1NF, 2NF and 3NF with suitable examples for each",4,6,Understanding
+"Consider two sets of FDs F={A→C, AC→D, E→AD, E→H} and G={A→CD, E→AH}. Are they equivalent?",4,4,Analyzing
+What are the anomalies occur due to interleave execution? Explain them with example,5,6,Understanding
+Explain different types of locks used in concurrent control,5,6,Understanding
+Explain how shadow paging helps to recover from transaction failure,5,8,Understanding
+Explain ACID property of transaction and system log,5,8,Understanding
+When deadlock and starvation problem occurs? Explain how these problems can be resolved,5,6,Analyzing
+Explain ARIES recovery algorithm with example,5,6,Understanding
+Identify and Discuss: i. People who use database for performing day-to-day activities ii. People who maintain the database system environment,1,7,Understanding
+Discuss the different types of user interfaces provided by the DBMS,1,8,Understanding
+"Consider the schema: SAILOR (SID, SNAME, RATING, AGE) BOAT (BID, BNAME, COLOR) RESERVE (SID, BID, DAY). Write SQL: i) Find names of sailors who reserved boat 103 ii) Find SIDs of sailors with age over 20 who reserved RED boat",1,5,Applying
+Explain three-schema architecture with neat diagram. Why mapping between schema levels? Briefly summarize Data Independence,1,7,Understanding
+Define Data Model. Explain different categories of Data Models. Discuss DBMS languages in brief,1,8,Understanding
+"Consider schema: EMPLOYEE (FName, Minit, LName, SSN, Salary, DNum) DEPARTMENT (DName, DNum, Mgr_Ssn) PROJECT (Pname, PNum, PLocation, DNum) WORKSON (ESSN, PNum, Hours). Write SQL: i) For every Project in 'Stafford', list project number, controlling dept number, manager's name and birth date ii) For employees of ""Research"" dept working on ""ProductX"", give 28% raise and retrieve employees with salary between 35,000-60,000",1,5,Applying
+"Design ER model for COMPANY database with constraints: i) Every department must have one manager ii) Every employee attached to at most one department iii) Department should have at least five employees iv) Minimum 4, maximum 8 departments v) Every employee shall have 1-5 projects",2,7,Applying
+Explain: i) Composite vs Atomic attributes ii) Relationship degree and Role Names,2,3,Understanding
+Explain: i) Relationships as attributes ii) Participation Constraints,2,3,Understanding
+"Explain steps in mapping ER Model to Relational Model. Illustrate for BANK DATABASE with Regular entities, Weak entities, 1:1, 1:N, M:N, ternary relations",2,10,Applying
+Summarize Referential Integrity and Foreign Key constraints with examples,2,5,Understanding
+"Explain steps in mapping ER Model to Relational Model. Illustrate for COMPANY DATABASE with Regular entities, Weak entities, 1:1, 1:N, M:N, ternary relations",2,10,Applying
+Summarize characteristics of relations. Explain Values and NULLs in Tuples,2,5,Understanding
+Consider Company Database schema. Write SQL: i) Retrieve names of employees without supervisors ii) Retrieve employees with dependent having same first name and sex iii) Retrieve employees with no dependents,3,9,Applying
+Explain schema change statements in SQL with examples,3,6,Understanding
+Explain how to create and drop views in SQL with example. Discuss problems with updating views,3,6,Understanding
+"Consider schema: SAILOR (SID, SNAME, RATING, AGE) BOAT (BID, BNAME, COLOR) RESERVE (SID, BID, DAY). Write relational algebra: i) Find colors of boats reserved by Lubber ii) Find names of sailors who reserved red or green boat iii) Find names of sailors who reserved all boats called Interfake iv) Find SIDs of sailors over age 20 who not reserved Red boat",3,9,Applying
+What is functional dependency? Write algorithm to find minimal cover for set of FDs with example,4,8,Understanding
+"Consider R = {A,B,C,D,E,F,G,H,I,J} with FDs F = {AB→C, A→DE, B→F, F→GH, D→IJ}. Determine if decomposition D1 = {R1,R2,R3}; R1={A,B,C,D,E}; R2={B,F,G,H}; R3={D,I,J} has lossless join property",4,7,Applying
+"What is need of normalization? Illustrate 2NF, 3NF and BCNF with examples",4,8,Understanding
+"Consider FDs F = {A→C, AC→D, E→AD, E→H} and G = {A→CD, E→AH}. Are they equivalent?",4,7,Applying
+Check if schedule is serializable using Precedence Graph: S1: R1(X); R2(Z); R1(Z); R3(X); R3(Y); W1(X); W3(Y); R3(Y); W4(Z); W4(Y),5,5,Understanding
+Illustrate occurrence of deadlock and starvation problem? Explain how these problems can be resolved?,5,10,Applying
+Explain characteristics specified by SET TRANSACTION statement in SQL,5,5,Understanding
+Why concurrency control needed? Illustrate types of problems that occur when two transactions run concurrently,5,10,Applying
+Identify and Discuss: i. People who use database for performing day-to-day activities ii. People who maintain the database system environment,1,7,Understanding
+Discuss the different types of user interfaces provided by the DBMS,1,8,Understanding
+Explain three-schema architecture with neat diagram. Why mapping between schema levels? Briefly summarize Data Independence,1,7,Understanding
+Define Data Model. Explain different categories of Data Models. Discuss DBMS languages in brief,1,8,Understanding
+"Design ER model for COMPANY database with constraints: i) Every department must have one manager ii) Every employee attached to at most one department iii) Department should have at least five employees iv) Minimum 4, maximum 8 departments v) Every employee shall have 1-5 projects",2,7,Applying
+"Consider schema: EMPLOYEE (FName, Minit, LName, SSN, Salary, DNum) DEPARTMENT (DName, DNum, Mgr_Ssn) PROJECT (Pname, PNum, PLocation, DNum) WORKSON (ESSN, PNum, Hours). Write SQL: i) For every Project in 'Stafford', list project number, controlling dept number, manager's name and birth date ii) For employees of ""Research"" dept working on ""ProductX"", give 28% raise and retrieve employees with salary between 35,000-60,000",1,5,Applying
+Explain: i) Composite vs Atomic attributes ii) Relationship degree and Role Names,2,3,Understanding
+Design ER model for Bank database with constraints: i) Customer should have at least one account ii) Customer can avail maximum of two loans at any time,2,7,Applying
+Explain: i) Relationships as attributes ii) Participation Constraints,2,3,Understanding
+"Explain steps in mapping ER Model to Relational Model. Illustrate for BANK DATABASE with Regular entities, Weak entities, 1:1 relation, 1:1 relations, M:N relations and ternary relations if any",2,10,Applying
+Summarize Referential Integrity and Foreign Key constraints with appropriate examples,2,5,Understanding
+"Explain steps in mapping ER Model to Relational Model. Illustrate for COMPANY DATABASE with Regular entities, Weak entities, 1:1 relation, 1:1 relations, M:N relations and ternary relations if any",2,10,Applying
+Summarize characteristics of relations. Briefly explain concept of Values and NULLs in Tuples,2,5,Understanding
+"Consider Company Database schema: EMPLOYEE (Fname, Minit, Lname, Ssn, Bdate, Address, Sex, Salary, Super_ssn, Dno) DEPARTMENT (Dname, Dnumber, Mgr_ssn, Mgr_start_date) DLOCATIONS (Dnumber, Diocation) PROJECT (Pname, Pnumber, Plocation, Dnum) WORKS_ON (Essn, Pno, Hours) DEPENDENT (Essn, Dependent name, Sex, Bdate, Relationship). Write SQL: i) Retrieve names of employees without supervisors ii) Retrieve employees with dependent having same first name and sex iii) Retrieve employees with no dependents",3,9,Applying
+Explain schema change statements in SQL with examples,3,6,Understanding
+Explain how to create and drop views in SQL with example. Discuss problems associated with updating views,3,6,Understanding
+What is functional dependency? Write algorithm to find minimal cover for set of FDs with suitable example,4,8,Understanding
+Check whether given schedule is serializable or not using Precedence Graph: S1: R1(X); R2(Z); R1(Z); R3(X); R3(Y); W1(X); W3(Y); R3(Y); W2(Z); W2(Y),5,5,Understanding
+Explain characteristics specified by SET TRANSACTION statement in SQL?,5,5,Understanding
+Why concurrency control needed? Illustrate types of problems that may occur when two simple transactions run concurrently?,5,10,Applying
+"Differentiate between ""Actors on the Scene"" and ""Workers behind the Scene"" in a DBMS environment.",1,5,Understanding
+Explain the Three-Schema Architecture with a neat diagram. How does it ensure data independence?,1,8,Understanding
+"What is a Data Model? Compare hierarchical, network, and relational data models.",1,6,Understanding
+Explain the difference between a database schema and a database instance.,1,4,Understanding
+Discuss the advantages of using a DBMS over traditional file processing systems.,1,6,Understanding
+"What are SQL constraints? Explain NOT NULL, UNIQUE, and PRIMARY KEY with examples.",1,6,Understanding
+Write an SQL query to change the branch of a student with USN '4SF21CS001' to 'ECE'.,1,1,Applying
+Differentiate between candidate key and primary key with suitable examples.,1,5,Understanding
+Explain the concept of data dictionary and its role in DBMS.,1,4,Understanding
+Discuss how DBMS handles concurrent access and data redundancy compared to file systems.,1,6,Understanding
+Define entity type and entity set. Give examples of each.,2,4,Understanding
+"Explain different types of attributes with examples: simple, composite, single-valued, multi-valued, derived.",2,6,Understanding
+What is a weak entity? How is it different from a strong entity? Explain with example.,2,6,Understanding
+"Explain cardinality ratio with examples for binary relationships (1:1, 1:N, M:N).",2,5,Understanding
+Design an ER diagram for a Hospital Management System with at least 5 entities and show relationships.,2,6,Applying
+Design an ER diagram for a Library Management System showing weak entities and relationships.,2,6,Applying
+What is a ternary relationship? Give an example and represent it in an ER diagram.,2,6,Understanding
+Explain the steps involved in mapping an ER model to relational schema.,2,6,Understanding
+"Map the following ER constructs to relations: Regular entity, Weak entity, 1:1 relationship, 1:N relationship.",2,6,Applying
